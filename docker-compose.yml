@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: doctor_appointment_backend
+    expose:
+      - "8080"
+    ports:
+      - "8080:8080"
+    volumes:
+      - appointment_db_data:/app/db
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: doctor_appointment_frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  appointment_db_data:
+    driver: local
