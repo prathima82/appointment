@@ -48,10 +48,7 @@ export default function ContactUs({ onBookClick }) {
           <div className="contact-card-box">
             <div className="contact-block">
               <h3>📍 Location Coordinates</h3>
-              <p>Reddy &amp; Reddy Colony, Tirupati - 517501, Andhra Pradesh, India.</p>
-              <p style={{ fontSize: '12px', color: 'var(--text-muted)', marginTop: '4px' }}>
-                (Opposite Ashalatha Hospital, 2nd Line)
-              </p>
+              <p>#-5-5-345/A, Sarojini Devi Layout, Sarojini Devi Road, Tirupati - 517501, A.P.</p>
             </div>
             
             <div className="contact-block">
@@ -71,7 +68,7 @@ export default function ContactUs({ onBookClick }) {
               <div style={{ textAlign: 'center', zIndex: 2 }}>
                 <span style={{ fontSize: '32px' }}>📍</span>
                 <h4 style={{ color: 'var(--primary-dark)', fontSize: '14px', marginTop: '5px' }}>Liberty Heart &amp; Vascular Surgery Centre</h4>
-                <p style={{ fontSize: '11px', color: '#666' }}>2nd Line, Reddy &amp; Reddy Colony, Tirupati</p>
+                <p style={{ fontSize: '11px', color: '#666' }}>Sarojini Devi Layout, Sarojini Devi Road, Tirupati</p>
               </div>
               <div style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, opacity: 0.15, background: 'radial-gradient(circle, #0c2b64 10%, transparent 10.5%), radial-gradient(circle, #0c2b64 10%, transparent 10.5%)', backgroundSize: '15px 15px', backgroundPosition: '0 0, 7.5px 7.5px' }}></div>
             </div>

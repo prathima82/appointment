@@ -34,8 +34,8 @@ export default function Footer({ onNavClick }) {
           <ul style={{ gap: '12px' }}>
             <li>
               <strong>📍 Location:</strong><br />
-              Opp. Ashalatha Hospital, 2nd Line,<br />
-              Reddy &amp; Reddy Colony, Tirupati - 517501
+              #-5-5-345/A, Sarojini Devi Layout,<br />
+              Sarojini Devi Road, Tirupati - 517501, A.P.
             </li>
             <li>
               <strong>📞 Phone:</strong> 7032077766
