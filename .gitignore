@@ -1,0 +1,23 @@
+# Database files
+backend/db/
+db/
+*.db
+*.trace.db
+
+# Maven build outputs
+**/target/
+
+# Node build and modules
+**/node_modules/
+**/dist/
+
+# OS and IDE files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
